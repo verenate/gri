@@ -1,0 +1,6 @@
+<?php
+
+// If you don't want to use the 1.4 branch that is already checked out
+// as an svn external to lib/vendor, then replace this with YOUR location 
+// for Symfony 1.4 and copy this file to require-core.php
+require_once '/Users/gve/Sites/web/symfony/1.4/lib/autoload/sfCoreAutoload.class.php';

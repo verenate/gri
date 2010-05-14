@@ -1,0 +1,239 @@
+/* aSandbox Defaul CSS */
+
+
+
+
+/* Basic Elements =========================================== */
+
+h1
+{
+	font-size: 30px;
+}
+
+h2
+{
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+h3,
+h4,
+h5,
+h6
+{
+	font-size: 14px;
+	color: #666;
+}
+
+br.c
+{
+	clear: both;
+	margin: 10px 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+
+
+
+
+/* Basic Layout =========================================== */
+
+#a-header
+{
+	width: 540px;
+	clear: none;
+}
+
+#a-search
+{
+	width: auto;
+	clear: none;
+	float: right;
+}
+
+.a-area-logo
+{
+	float: left;
+	display: inline;
+	position: relative;
+	width: 100%;
+	clear: both;
+}
+
+.a-area-logo .a-slot
+{
+	margin: 0;
+}
+
+.a-area-logo .aImage a
+{
+	float: left;
+	display: inline;
+	position: relative;
+}
+
+.a-area-header
+{
+	float: left;
+	width: 50%;
+}
+
+.a-area-body
+{
+	width:480px;
+	float:left;
+	display:inline;
+	position:relative;
+}
+
+.a-home .a-area-body
+{
+	width: 720px;
+}
+
+.a-area-sidebar
+{
+	width:200px;
+	float:left;
+	display:inline;
+	position:relative;
+	margin-left: 40px;
+}
+
+.a-area-footer
+{
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+	margin-top: 20px;
+	font-size: 11px;
+	color: #ccc;
+}
+
+.a-blog-posts #a-content,
+.a-blog-events #a-content
+{
+	clear: none;
+	width: 720px;
+}
+
+.a-home #a-content
+{
+	width: 100%;
+}
+
+
+
+/* Subnav =========================================== */
+
+#a-subnav
+{
+	background: #ddd;
+}
+
+#a-subnav .a-tab-nav-item a
+{
+	float: left;
+	clear: both;
+	color: #fff;
+	display: inline;
+}
+
+#a-subnav .a-tab-nav-item a:hover
+{
+	color: #333;
+	background: #fff;
+	text-decoration: none;
+}
+
+
+#a-subnav li .a-drag
+{
+	position: absolute;
+	right: 0;
+}
+
+#a-subnav li .a-drag,
+#a-subnav li .a-drag *
+{
+	background-color: transparent;
+}
+
+
+
+
+
+/* Breadcrumb Component =========================================== */
+
+#a-breadcrumb-component
+{
+	float: left;
+	width: 100%;
+	font-size: 18px;
+	margin: 0 0 20px 0;
+}
+
+#a-breadcrumb-component li
+{
+	float: left;
+	margin-right: 5px;
+}
+
+
+
+
+
+/* Blog & Events =========================================== */
+
+.a-blog-events #a-blog-main .a-blog-post-media
+{
+	float: left;
+	width: auto;
+	clear: none;
+	display: inline;
+	position: relative;
+	margin: 0 20px 0 0;
+}
+
+#a-blog-main .a-blog-post-media .a-slideshow-controls
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0.35);
+	width: 100%;
+	z-index: 999;
+}
+
+#a-blog-main .a-blog-post-media .a-slideshow-controls li
+{
+	float: left;
+/*	padding: 5px 0;*/
+	margin: 5px;
+}
+
+#a-blog-main .a-blog-post-media .a-slideshow-controls li.a-slideshow-controls-previous
+{
+	position: absolute;
+	top: 0;
+	right: 25px;
+}
+
+#a-blog-main .a-blog-post-media .a-slideshow-controls li.a-slideshow-controls-next
+{
+	float: right;
+}
+
+
+
+
+
+/* Variants =========================================== */

@@ -1,0 +1,18 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# Special case for the home page
+
+homepage:
+  url:  /
+  param: { module: a, action: show, slug: / }
+
+# The non-CMS actions of your project, and the admin actions of the CMS
+a_action:
+  url:   /cms/:module/:action
+
+# Must be the LAST rule
+a_page:
+  url:   /:slug
+  param: { module: a, action: show }
+  requirements: { slug: .* }

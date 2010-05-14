@@ -1,0 +1,15 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+#all:
+all:
+  a:
+    title_prefix: 'VereNate - '
+    login_link: false
+    use_bundled_layout: false
+    templates:
+      home:
+        Home Page
+      default:
+        Default Page

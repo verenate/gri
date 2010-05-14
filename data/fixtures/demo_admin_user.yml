@@ -1,0 +1,5 @@
+sfGuardUser:
+  sgu_admin:
+    username: admin
+    password: demo
+    is_super_admin: true
